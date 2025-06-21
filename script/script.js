@@ -25,7 +25,7 @@ const Show_Lesson_Buttons = (lessons) => {
   lessons.forEach((lesson) => {
 
     lessons_Container.innerHTML += `
-<button class=" btn border hover:border-[#422AD5] text-[#422AD5] bg-transparent"><img src="../assets/fa-book-open.png" alt="${lesson.lessonName}" /> Lesson-${lesson.level_no}</button>
+<button class=" btn border hover:border-[#422AD5] text-[#422AD5] bg-transparent"><img src="./assets/fa-book-open.png" alt="${lesson.lessonName}" /> Lesson-${lesson.level_no}</button>
 `;
   });
 };
