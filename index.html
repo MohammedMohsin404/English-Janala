@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<style>
+    *{
+        scroll-behavior: smooth;
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,14 +21,14 @@
     <nav>
         <div class="navbar bg-base-100 shadow-lg fixed top-0  container z-50">
             <div class="flex-1">
-                <a class="btn btn-ghost text-xl">English <img src="./assets/logo.png" alt="English জানালা">জানালা</a>
+                <a href="https://mohammedmohsin404.github.io/English-Janala/" class="btn btn-ghost text-xl">English <img src="./assets/logo.png" alt="English জানালা">জানালা</a>
             </div>
             <div class="flex-none space-x-4">
 
-                <button class=" hidden md:inline-flex btn   rounded-lg text-[#422AD5] border-[#422AD5]"> <img
-                        src="./assets/fa-circle-question.png" alt=""> FAQ</button>
-                <button class="hidden md:inline-flex btn  rounded-lg text-[#422AD5] border-[#422AD5]"> <img
-                        src="./assets/fa-book-open.png" alt=""> Learn</button>
+                <a href="#faq" class=" hidden md:inline-flex btn   rounded-lg text-[#422AD5] border-[#422AD5]"> <img
+                        src="./assets/fa-circle-question.png" alt=""> FAQ</a>
+                <a href="#learn" class="hidden md:inline-flex btn  rounded-lg text-[#422AD5] border-[#422AD5]"> <img
+                        src="./assets/fa-book-open.png" alt=""> Learn</a>
                 <button class="btn rounded-lg text-[#422AD5] border-[#422AD5]"> <img
                         src="./assets/fa-arrow-right-from-bracket.png" alt=""> Logout</button>
             </div>
@@ -32,7 +36,7 @@
     </nav>
 
     <header class="mt-20 md:mt-32">
-        <div class="flex flex-col-reverse lg:flex-row items-center justify-between">
+        <div class="flex flex-col-reverse lg:flex-row items-center justify-around">
             <div class="space-y-5 ">
                 <h1 class="text-4xl text-center lg:text-left font-bold"> <span
                         class="text-[rgb(84,184,249)]">English</span> is Easy!!</h1>
@@ -48,7 +52,7 @@
                 </fieldset>
             </div>
             <div>
-                <img src="./assets/hero-student.png" alt="">
+                <img src="" alt="">
             </div>
         </div>
     </header>
@@ -56,12 +60,109 @@
     <main>
         <section id="learn" class="text-center space-y-9 mt-20 md:mt-40">
 
-            <h2 class="font-bold text-3xl text-clip"> <span class="text-[rgb(84,184,249)]">Let's</span> Learn Vocabularies</h2>
+            <h2 class="font-bold text-3xl text-clip"> <span class="text-[rgb(84,184,249)]">Let's</span> Learn
+                Vocabularies</h2>
 
-            <div id="lessons-container" class="space-x-5 "  ></div>
+            <div id="lessons-container" class="space-x-5 "></div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  mt-16 ">
+                <div class="space-y-6 p-12">
+                    <h3 class="text-3xl font-bold">Eager</h3>
+                    <p class="text-xl">Meaning/Pronunciation</p>
+                    <h3 class="text-3xl ">"আগ্রহী/ইগার"</h3>
+                    <div class="justify-around flex">
+                        <img src="./assets/fi-sr-info.png" alt="">
+                        <img src="./assets/fi-sr-volume.png" alt="">
+                    </div>
+                </div>
+                <div class="space-y-6 p-12">
+                    <h3 class="text-3xl font-bold">Eager</h3>
+                    <p class="text-xl">Meaning/Pronunciation</p>
+                    <h3 class="text-3xl ">"আগ্রহী/ইগার"</h3>
+                    <div class="justify-around flex">
+                        <img src="./assets/fi-sr-info.png" alt="">
+                        <img src="./assets/fi-sr-volume.png" alt="">
+                    </div>
+                </div>
+                <div class="space-y-6 p-12">
+                    <h3 class="text-3xl font-bold">Eager</h3>
+                    <p class="text-xl">Meaning/Pronunciation</p>
+                    <h3 class="text-3xl ">"আগ্রহী/ইগার"</h3>
+                    <div class="justify-around flex">
+                        <img src="./assets/fi-sr-info.png" alt="">
+                        <img src="./assets/fi-sr-volume.png" alt="">
+                    </div>
+                </div>
+                <div class="space-y-6 p-12">
+                    <h3 class="text-3xl font-bold">Eager</h3>
+                    <p class="text-xl">Meaning/Pronunciation</p>
+                    <h3 class="text-3xl ">"আগ্রহী/ইগার"</h3>
+                    <div class="justify-around flex">
+                        <img src="./assets/fi-sr-info.png" alt="">
+                        <img src="./assets/fi-sr-volume.png" alt="">
+                    </div>
+                </div>
+                <div class="space-y-6 p-12">
+                    <h3 class="text-3xl font-bold">Eager</h3>
+                    <p class="text-xl">Meaning/Pronunciation</p>
+                    <h3 class="text-3xl ">"আগ্রহী/ইগার"</h3>
+                    <div class="justify-around flex">
+                        <img src="./assets/fi-sr-info.png" alt="">
+                        <img src="./assets/fi-sr-volume.png" alt="">
+                    </div>
+                </div>
+            </div>
 
         </section>
+        <section id="faq" class=" space-y-9 mt-20 md:mt-40">
+
+            <h2 class="font-bold text-center text-3xl text-clip"> <span class="text-[rgb(84,184,249)]">Frequently
+                </span> Asked
+                Questions</h2>
+
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title font-semibold">How do I create an account?</div>
+                <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the
+                    registration process.</div>
+            </div>
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
+                <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the
+                    instructions sent to your email.</div>
+            </div>
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-semibold">How do I update my profile information?</div>
+                <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make
+                    changes.</div>
+            </div>
+        </section>
     </main>
+
+    <footer id="footer" class="mt-20 md:mt-40">
+        <div class="flex justify-between">
+            <div class="space-y-7">
+                <div class="flex">
+                    <a class=" flex font-bold text-xl">English <img src="./assets/logo.png"
+                            alt="English জানালা">জানালা</a>
+                </div>
+                <h3 class="text-xl">ইংরেজি শিখুন সহজে</h3>
+                <p class="text-base">Providing ED-Tech Applications since 2025</p>
+            </div>
+            <div class="space-y-4">
+                <h3 class="text-[#18181B]">FOLLOW US</h3>
+                <div class="flex space-x-4 items-center">
+                    <a href="https://www.facebook.com/"><img src="./assets/fb-thumb.png" alt="Facebook"></a>
+                    <a href="https://www.youtube.com/"><img src="./assets/youtube-thumb.png" alt="YouTube"></a>
+                    <a href="https://www.instagram.com/"><img src="./assets/instagram-thumb.png" alt="Instagram"></a>
+                    <a href="https://www.github.com/"><img src="./assets/github-thumb.png" alt="Github"></a>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="./script/script.js"></script>
